@@ -23,6 +23,7 @@ public class TestMethods {
     }
     @Test
     public void testCalcWeightExist() {
+        //megjegyzés
         boolean actual = this.methodNames.contains("calcWeight");
         assertTrue(actual);
         
