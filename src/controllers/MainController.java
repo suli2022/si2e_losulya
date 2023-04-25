@@ -24,7 +24,7 @@ public class MainController {
         Double weight = calcWeight(perimeter, length);
         this.mainFrame.getWeightPanel().setValue(weight.toString());
     }
-    private double calcWeight(double perimeter, double length) {
+    public double calcWeight(double perimeter, double length) {
         double weight = (perimeter * perimeter * length)/11877;
         return weight;
     }
